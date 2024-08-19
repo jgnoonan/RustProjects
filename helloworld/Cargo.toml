@@ -8,4 +8,5 @@ name = "helloworld"
 path = "src/helloworld.rs"
 
 [dependencies]
+fhirbolt = {version = "0.4.0", features = ["r5"]}
 rand = "0.8.5"
