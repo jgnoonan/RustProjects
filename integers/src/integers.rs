@@ -15,6 +15,17 @@ fn main() {
     */
 
     let total = 4;
-    
+    let height: u32 = 72;
+    let deduction = 2-200;
+    let overflow: u16 = 65535;
+    let overtime_1: u16 = 65535;
+    let overtime_2: u16 = 65535;
 
+    println!("The total is: {}", total);
+    println!("My height is {} inches", height);
+    println!("My deduction is $ {}.00", deduction);
+    println!("Overflow of u16: {}", overflow);
+    println!("Overtime 1 value is {}", overtime_1);
+    println!("Overtime 2 value is {}", overtime_2);
 }
+
