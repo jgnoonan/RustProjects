@@ -5,7 +5,7 @@ edition = "2021"
 
 [[bin]]
 name = "variables"
-path = "src/variables"
+path = "src/variables.rs"
 
 [dependencies]
 rand = "0.8.5"

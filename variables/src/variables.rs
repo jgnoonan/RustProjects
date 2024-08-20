@@ -1,4 +1,5 @@
 /*
+
 The Variable Rule Book in Rust
 
 When it comes to Rust, there are different ways to name a variable
