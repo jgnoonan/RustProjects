@@ -58,16 +58,14 @@ y = 2
 
 fn main() {
 
-    let mut sum = 0;
-    let mut dif = 0;
-    let mut prod = 0;
-    let mut quot = 0;
-    let mut modulus = 0;
-    sum = 5 + 9;
-    dif = 9 - 5;
-    prod = 9 * 5;
-    quot = 10 / 5;
-    modulus = 9 % 5;
-
-    println!("{} {} {} {} {}", sum, dif, prod, quot, modulus);
+    let sum = 5+9;
+    let dif = 9-5;
+    let prod = 9*5;
+    let quot = 10/5;
+    let modulus = 9%5;
+    println!("5 + 9 = {}", sum);
+    println!("9 - 5 = {}", dif);
+    println!("5 * 9 = {}", prod);
+    println!("10 / 5 = {}", quot);
+    println!("9 % 5 = {}", modulus);
 }
