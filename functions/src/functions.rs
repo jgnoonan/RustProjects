@@ -29,6 +29,20 @@ fn fn_function () {
     println!("Hello!  I am inside fn_function");
 }
 
+// some functions can have return statements that return value back to the caller
+
+fn fn_return() -> bool {
+    return true;
+}
+
+// function with parameters
+fn calculate_age(birthyear:i32, currentyear:i32) -> i32 {
+    return currentyear - birthyear;
+}
+
 fn main() {
     fn_function();
+    let fn_return: bool = fn_return();
+    println!("Function returned: {}", fn_return);
+    println!("My current age is: {}", calculate_age(1961, 2024));
 }
