@@ -1,0 +1,10 @@
+[package]
+name = "stackheap"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "stackheap"
+path = "src/stackheap.rs"
+
+[dependencies]
