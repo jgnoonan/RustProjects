@@ -34,11 +34,37 @@ runtime efficiency and semantic impact.
 
 */
 
+/*
+Variables of a value have an owner in Rust.
+All the data that is stored in Rust has an owner associated with it.
 
+let time = 20  in this case, time is the owner of the value 20
 
+Data has one owner at a time.
+Multiple variables cannot point to the same memory location.
+Variables always point to different memory locations.
 
+That being said, you can transfer ownership in Rust:
 
+Assigning one variable's value to another variable.
+Inputting value to a function.
+Outputting value from a function.
+
+A vector is a data structure that contains zero-or-more items of the same type.
+The items have an order, and you can access those items by the index (0,1, ...)
+You can add and remove items.  The items themselves are stored in a contiguous heap-allocated 
+area.
+*/
 
 fn main() {
-    println!("Hello, world!");
+    // vector vector1 owns the object in the heap
+    // only a single variable owns the heap memory 
+    // at a given time.
+    let vector1 = vec![2, 4, 6];
+    let vector2 = vector1;
+
+    // Rust is going to check for memory access and that's
+    // really a key selling point for Rust.
+
+    println!("{:?}", vector2);
 }
