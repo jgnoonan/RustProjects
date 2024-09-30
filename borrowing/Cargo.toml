@@ -1,0 +1,10 @@
+[package]
+name = "borrowing"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "borrowing"
+path = "src/borrowing.rs"
+
+[dependencies]
