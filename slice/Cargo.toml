@@ -1,0 +1,10 @@
+[package]
+name = "slice"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "slice"
+path = "src/slice.rs"
+
+[dependencies]
