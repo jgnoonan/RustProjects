@@ -1,0 +1,10 @@
+[package]
+name = "generictypes"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "generictypes"
+path = "src/generictypes.rs"
+
+[dependencies]
