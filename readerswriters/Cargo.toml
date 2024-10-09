@@ -1,0 +1,10 @@
+[package]
+name = "readerswriters"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "readerswriters"
+path = "src/readerswriters.rs"
+
+[dependencies]
